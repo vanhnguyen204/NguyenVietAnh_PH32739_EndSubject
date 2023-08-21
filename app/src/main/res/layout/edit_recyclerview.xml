@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_card"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/border_card"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/tv_MaLT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="thong tin 1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_tenLT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_MaLT"
+            android:text="thong tin 1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_gia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tenLT"
+            android:text="thong tin 1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_khuyenmai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_gia"
+            android:text="thong tin 1"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img_bin"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/bin" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

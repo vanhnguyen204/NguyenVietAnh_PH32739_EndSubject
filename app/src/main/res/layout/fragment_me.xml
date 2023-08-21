@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#CEDDBF"
+    android:orientation="vertical"
+    android:padding="16dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Thêm LapTop"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:layout_marginBottom="20dp"
+    />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColorHint="#968E8E">
+
+        <EditText
+            android:id="@+id/edt_malt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã laptop"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColorHint="#968E8E">
+
+        <EditText
+            android:id="@+id/edt_tenlt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColorHint="#968E8E">
+
+        <EditText
+            android:id="@+id/edt_gia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColorHint="#968E8E">
+
+        <EditText
+            android:id="@+id/ed_khuyenMai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Khuyến mãi"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/btnAddNew"
+        android:background="@drawable/shadow_button"
+        android:text="Thêm"
+        android:textColor="@color/white" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btnCancel"
+        android:background="@drawable/shadow_button"
+        android:text="Huỷ"
+        android:textColor="@color/white" />
+</LinearLayout>
+</LinearLayout>
